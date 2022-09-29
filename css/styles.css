@@ -1,0 +1,302 @@
+/* border: 1px solid rgb(167, 147, 60); */
+html {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282d30;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.moco-logo {
+    width: 10rem;
+    margin: 1rem;
+}
+
+/* Navigation styles */
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.nav-item {
+    color: #f7964c;
+    text-decoration: none;
+    margin: 0.3rem 0.5rem;
+}
+
+.insta-logo {
+    height: 19px;
+}
+
+/* Dropdown content disappear/styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown links styles */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Grey bg color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Book Now Button Styles */
+.nav-btn {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #f7964c;
+    text-align: center;
+    width: 5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    border: #f7964c 2px solid;
+    border-radius: 6.4px;
+}
+
+.nav-btn:hover {
+    transition: .5s ease;
+    background-color: #f7964c;
+    color: white;    
+}
+
+/* Site button styles */
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    width: 15rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: #f7964c 2px solid;
+    border-radius: 6.4px;
+    text-decoration: none;
+    color: #f7964c;  
+}
+
+.btn:hover {
+    transition: .5s ease;
+    background-color: #f7964c;
+    color: white;    
+}
+
+/* Image Parallax Styles */
+.sect-parallax-studio {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648683366972-E9VYTG82MJH2KVWFDN80/Kensington+Movement+Collective+Performance+MOCO+Gym+Floor.png?format=original);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* image overlay */
+.dark-overlay {
+    background-color: rgba(70, 75, 82, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.content-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-wrap {
+    padding: 20px;
+    
+    width: 35%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-color: #282d30;
+    color: white;
+
+    border: 2px solid #282d30;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #282d30;
+}
+
+.heading {
+    color: #f7964c;
+    font-size: 40px;
+}
+
+/* The MOCO Vision Styles */
+.sect-vision {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.vision-content {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.img-vision {
+    padding: 20px;
+    width: 3000px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.service-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-wrap {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.service-item {
+    text-align: center;
+    padding: 5%;
+}
+
+.service-img {
+    width: 100%;
+}
+
+.sect-parallax-passes {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/34c66473-307b-4d40-ba98-fd175adb0534/Kensington+Movement+Collective+Performance+MOCO+Gym+Strength+Session+Chest+Press.png?format=750w);
+    height: 40%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.passes-wrap {
+    padding: 5%;
+}
+
+.sect-parallax-plates {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/562c977b-75c3-485c-b606-916b11be7984/Kensington+Movement+Collective+Performance+MOCO+Gym+Weight+Plates.png?format=1500w);
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-wrap {
+    padding: 20px;
+    
+    width: 35%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    background-color: #282d30;
+    border: 2px solid #282d30;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #282d30;
+
+    color: white;
+}
+
+footer {
+    background-color: #282d30;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.insta-wrap {
+    color: #ddd;    
+    border-bottom: 2px solid #f7964c;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.foot-text-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-nav {
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-nav a {
+    color: #f7964c;
+    margin: 0.5em 1.5em;
+}
+
+.foot-ack {
+    width: 33%;
+}
+
+.foot-contact {
+    width: 33%;
+    margin: 0 1.5em;
+    text-align: right;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-contact a {
+    color: white;
+    text-decoration: none;
+}
+
