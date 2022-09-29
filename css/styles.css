@@ -162,21 +162,24 @@ header {
 .sect-vision {
     display: flex;
     align-items: center;
-    font-weight: 300;
+    margin: 5%;
 }
 
 .vision-content {
-    padding: 20px;
+    padding-right: 2%;
     font-size: 20px;
 }
 
 .img-vision {
-    padding: 20px;
     width: 3000px;
     height: 400px;
     object-fit: cover;
 }
 
+/* Moco Facilities & Services */
+.sect-services {
+    margin: 5%;
+}
 .service-nav {
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +191,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .service-item {
@@ -198,6 +200,8 @@ header {
 
 .service-img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .sect-parallax-passes {
@@ -236,7 +240,7 @@ header {
 
     background-color: #282d30;
     border: 2px solid #282d30;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0 0 10px #282d30;
 
     color: white;
@@ -246,20 +250,28 @@ footer {
     background-color: #282d30;
     color: white;
 
+    padding: 2.5%;
+
     display: flex;
     flex-direction: column;
 }
 
 .insta-wrap {
-    color: #ddd;    
+    color: white;
     border-bottom: 2px solid #f7964c;
+    padding-bottom: 2%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.center-wrap {
+.insta-wrap p {
+    margin: 0.5em;
+}
+
+
+.insta-center {
     display: flex;
     align-items: center;
 }
@@ -284,6 +296,7 @@ footer {
 
 .foot-ack {
     width: 33%;
+    text-align: center;
 }
 
 .foot-contact {
