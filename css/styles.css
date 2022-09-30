@@ -128,9 +128,7 @@ body {
     background-image: linear-gradient(to left, rgba(70,75,82,0.4), rgba(70,75,82,1));
     width: 100%;
     height: 100%;
-}
 
-.content-position {
     display: flex;
     align-items: center;
 }
@@ -139,9 +137,8 @@ body {
     padding: 8%;
     color: white;
     
-    width: 35%;
     height: fit-content;
-
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -156,6 +153,7 @@ body {
     color: #f7964c;
     text-decoration: none;
     text-align: left;
+    font-size: 30px;
 }
 
 /* The MOCO Vision Styles */
@@ -262,6 +260,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.plates-dark-overlay {
+    background-image: linear-gradient(to left, rgba(70,75,82,0.6), rgba(70,75,82,0.9), rgba(70,75,82,0.9), rgba(70,75,82,0.6));
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.plates-text-wrap .heading {
+    color: white;
+
+}
+
+.plate-btn {
+    color: #f7964c;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 footer {
