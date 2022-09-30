@@ -9,7 +9,7 @@ body {
     height: 100%;
 }
 
-header {
+.header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -20,6 +20,9 @@ header {
     top: 0;
 }
 
+.header-mobile {
+    display: none;
+}
 .moco-logo {
     width: 10rem;
     margin: 1rem;
@@ -78,7 +81,7 @@ header {
     text-decoration: none;
     color: #f7964c;
     text-align: center;
-    width: 5rem;
+    width: 100px;
     margin: 0.5rem;
     padding: 0.5rem;
 
@@ -110,7 +113,7 @@ header {
     color: white;    
 }
 
-/* Image Parallax Styles */
+/* Studio Parallax Styles */
 .sect-parallax-studio {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648683366972-E9VYTG82MJH2KVWFDN80/Kensington+Movement+Collective+Performance+MOCO+Gym+Floor.png?format=original);
     height: 100%;
@@ -168,17 +171,22 @@ header {
 .vision-content {
     padding-right: 2%;
     font-size: 20px;
+    text-align: center;
 }
 
 .img-vision {
-    width: 3000px;
-    height: 400px;
+    width: 60%;
     object-fit: cover;
+}
+
+.sect-parallax-vision {
+    display: none;
 }
 
 /* Moco Facilities & Services */
 .sect-services {
     margin: 5%;
+    text-align: center;
 }
 .service-nav {
     display: flex;
@@ -213,8 +221,10 @@ header {
     background-size: cover;
 }
 
+/* Passes and Membership Section */
 .passes-wrap {
     padding: 5%;
+    text-align: center;
 }
 
 .sect-parallax-plates {
@@ -250,7 +260,7 @@ footer {
     background-color: #282d30;
     color: white;
 
-    padding: 2.5%;
+    padding: 1.5%;
 
     display: flex;
     flex-direction: column;
@@ -280,6 +290,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0.5%;
 }
 
 .foot-nav {
@@ -313,3 +324,72 @@ footer {
     text-decoration: none;
 }
 
+/* Media Queries */
+@media screen and (max-width: 64em) {
+    .moco-logo {
+        width: 8rem;
+        margin: 1rem;
+    }
+
+    .sect-vision {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .img-vision {
+        display: none;
+    }
+
+    .sect-parallax-vision {
+        display: block;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/d59abb96-ba2d-4fd3-be94-5160a44be95f/Kensington+Movement+Collective+Performance+MOCO+Gym+Cardio+Session+Rowers.png?format=750w);
+        height: 50%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+}
+
+@media screen and (max-width: 30em) {
+/*  Header Mobile Styles */
+    .header {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background-color: #282d30;
+        position: relative;
+    }
+
+    .header-mobile img:hover {
+        background-color: #282d30b9;
+    }
+
+    .header-mobile .nav-item:hover {
+        background-color: #282d30b9;
+    }
+
+    .mobile-nav {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-top: 2px solid #f7964c;
+    }
+
+    .hamburger {
+        color: #f7964c;
+    }
+
+/* Studio Mobile Parallax Styles */
+
+}
