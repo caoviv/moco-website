@@ -1,6 +1,6 @@
 /* border: 1px solid rgb(167, 147, 60); */
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     height: 100%;
 }
 
@@ -105,6 +105,7 @@ body {
     border-radius: 6.4px;
     text-decoration: none;
     color: #f7964c;  
+    text-align: center;
 }
 
 .btn:hover {
@@ -123,48 +124,45 @@ body {
     background-size: cover;
 }
 
-/* image overlay */
-.dark-overlay {
-    background-color: rgba(70, 75, 82, 0.6);
+.studio-dark-overlay {
+    background-image: linear-gradient(to left, rgba(70,75,82,0.4), rgba(70,75,82,1));
     width: 100%;
     height: 100%;
 }
 
 .content-position {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.box-wrap {
-    padding: 20px;
+.studio-text-wrap {
+    padding: 8%;
+    color: white;
     
     width: 35%;
     height: fit-content;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    background-color: #282d30;
-    color: white;
-
-    border: 2px solid #282d30;
-    border-radius: 3px;
-    box-shadow: 0 0 10px #282d30;
 }
 
 .heading {
     color: #f7964c;
     font-size: 40px;
+    font-weight: 700;
+}
+
+.studio-btn {
+    color: #f7964c;
+    text-decoration: none;
+    text-align: left;
 }
 
 /* The MOCO Vision Styles */
 .sect-vision {
     display: flex;
     align-items: center;
+
     margin: 5%;
 }
 
@@ -177,16 +175,25 @@ body {
 .img-vision {
     width: 60%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .sect-parallax-vision {
     display: none;
 }
 
+/* dark image overlay */
+.dark-overlay {
+    background-color: rgba(70,75,82,0.6);
+    width: 100%;
+    height: 100%;
+}
+
 /* Moco Facilities & Services */
 .sect-services {
-    margin: 5%;
+    padding: 5%;
     text-align: center;
+    background-color: rgb(240, 240, 240);
 }
 .service-nav {
     display: flex;
@@ -210,6 +217,7 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .sect-parallax-passes {
@@ -224,9 +232,29 @@ body {
 /* Passes and Membership Section */
 .passes-wrap {
     padding: 5%;
-    text-align: center;
+    text-align: left;
+    background-color: #282d30;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.passes-img {
+    width: 60%;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.passes-text {
+    padding: 2%;
+    font-size: 20px;
+}
+
+
+
+/* Plate Parallax Styles */
 .sect-parallax-plates {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/562c977b-75c3-485c-b606-916b11be7984/Kensington+Movement+Collective+Performance+MOCO+Gym+Weight+Plates.png?format=1500w);
     height: 70%;
@@ -234,26 +262,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.box-wrap {
-    padding: 20px;
-    
-    width: 35%;
-    height: fit-content;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-
-    background-color: #282d30;
-    border: 2px solid #282d30;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #282d30;
-
-    color: white;
 }
 
 footer {
@@ -391,5 +399,7 @@ footer {
     }
 
 /* Studio Mobile Parallax Styles */
-
+    .box-wrap {
+        
+    }
 }
