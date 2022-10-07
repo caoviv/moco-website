@@ -1,5 +1,5 @@
 function toggleMenu() {
-    var x = document.querySelector(".mobile-nav");
+    let x = document.querySelector(".mobile-nav");
     if (x.style.display === "flex") {
       x.style.display = "none";
     } else {

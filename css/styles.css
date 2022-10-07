@@ -383,7 +383,7 @@ footer {
     }    
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 48.125em) {
 /*  Header Mobile Styles */
     .header {
         display: none;
@@ -415,13 +415,3 @@ footer {
 
         border-top: 2px solid #f7964c;
     }
-
-    .hamburger {
-        color: #f7964c;
-    }
-
-/* Studio Mobile Parallax Styles */
-    .box-wrap {
-        
-    }
-}
