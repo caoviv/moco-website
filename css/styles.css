@@ -460,3 +460,9 @@ footer {
         font-weight: 700;
         text-decoration: none;
     }
+
+@media screen and (max-width: 40.4375em) {
+    .service-wrap {
+        width: 50%;
+    }
+}
