@@ -384,8 +384,8 @@ footer {
     }    
 }
 
-/* 770px */
-@media screen and (max-width: 48.125em) {
+/* 771px */
+@media screen and (max-width: 48.1875em) {
 /*  Header Mobile Styles */
     .header {
         display: none;
