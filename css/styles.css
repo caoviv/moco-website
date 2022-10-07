@@ -425,7 +425,6 @@ footer {
     .passes-wrap {
         flex-direction: column;
         text-align: center;
-        padding: ;
     }
 
     .passes-img {
@@ -470,7 +469,7 @@ footer {
         font-weight: 700;
         text-decoration: none;
     }
-
+}
 /* 647px */
 @media screen and (max-width: 40.4375em) {
     .service-wrap {
