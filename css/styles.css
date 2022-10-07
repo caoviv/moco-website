@@ -450,7 +450,7 @@ footer {
     }
 
     .foot-nav a {
-        width: 25%;
+        width: 350px;
         color: #f7964c;
         margin: 1%;
     }
@@ -499,4 +499,11 @@ footer {
     .passes-img {
         width: 90%;
     }
+    
+    .foot-nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
 }
