@@ -355,6 +355,7 @@ footer {
 }
 
 /* Media Queries */
+/* 1024px */
 @media screen and (max-width: 64em) {
     .moco-logo {
         width: 8rem;
@@ -383,6 +384,7 @@ footer {
     }    
 }
 
+/* 770px */
 @media screen and (max-width: 48.125em) {
 /*  Header Mobile Styles */
     .header {
@@ -416,10 +418,18 @@ footer {
         border-top: 2px solid #f7964c;
     }
 
+    .studio-text-wrap {
+        width: 100%;
+    }
+
     .passes-wrap {
         flex-direction: column;
         text-align: center;
         padding: ;
+    }
+
+    .passes-img {
+        width: 90%;
     }
 
     .plates-text-wrap {
@@ -461,8 +471,32 @@ footer {
         text-decoration: none;
     }
 
+/* 647px */
 @media screen and (max-width: 40.4375em) {
     .service-wrap {
         width: 50%;
+    }
+
+    .studio-text-wrap {
+        text-align: center;
+    }
+
+    .studio-btn {
+        text-align: center;
+    }
+
+    .btn-arrow {
+        display: none;
+    }
+}
+
+/* 427px */
+@media screen and (max-width: 26.6875em) {
+    .service-wrap {
+        width: 100%;
+    }
+
+    .passes-img {
+        width: 90%;
     }
 }
