@@ -191,14 +191,6 @@ footer {
     font-weight: 700;
 }
 
-.heading-30 {
-    color: #f7964c;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: left;
-}
-
-
 /* Home Page */
 /* Studio Parallax Styles */
 .sect-parallax-studio {
@@ -410,6 +402,17 @@ footer {
     padding-right: 2%;
     font-size: 20px;
     text-align: justify;
+}
+
+.sect-experience p {
+    margin: 3%;
+}
+
+.experience-heading {
+    color: #f7964c;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
 }
 
 /* Media Queries */
