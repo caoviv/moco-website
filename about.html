@@ -5,105 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <title>About MOCO | Movement Collective & Performance</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MOCO | Movement Collective & Performance</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/2842b28c-d576-4eca-a667-fec220e4d0b4/favicon.ico?format=100w">
 </head>
 <body>
-    <h4>WHY MOCO?</h4>
-    <h1>A GYM, WELLNESS STUDIO AND HEALTH CLINIC CREATED FOR OUR COMMUNITY</h1>
-    <p>
-        WITH OVER 20 YEARS IN THE FITNESS AND HEALTH INDUSTRIES, WHEN IT COMES TO EXERCISE AND MOVEMENT, WE’VE SEEN IT ALL.
-    </p>
-    <p>
-        We’ve watched fitness trends come and go. We’ve seen monumental developments in health sciences. We’ve set and achieved our own fitness goals and helped countless clients smash theirs too.<br>
-        We know that each person who walks through our doors is different. Some have clear goals and targets, others need a little bit of guidance. Some are recovering from major surgery, others have never been to hospital. Some like to stay in their comfort zone, others like to be pushed to the limit. Some have plenty of time to dedicate to exercise, others are squeezing in an hour here or there in between family, work and social commitments.<br>
-        Tired of a ‘one-size-fits-all’ approach, we set out to create a truly holistic movement and wellness space to help each and every member of our community maximise their results and achieve their goals, regardless of their level of fitness, their motivation and their schedules.<br>
-    </p>
-    <h1>
-        INTRODUCING MOVEMENT COLLECTIVE & PERFORMANCE, OR MOCO FOR SHORT:<br>
-        A GYM, WELLNESS STUDIO AND HEALTH CLINIC BROUGHT TOGETHER UNDER ONE ROOF AIMED TO HELP OUR CLIENTS AMPLIFY THEIR MOVEMENT AND HEALTH TO THE NEXT LEVEL.
-    </h1>
-    <h1>MOCO FACILITIES & SERVICES</h1>
-    <h2>Group Training Studio</h2>
-    <p>
-        Our gym is decked out with a range of cardio and strength equipment to help us create a range of different workouts.
-    </p>
+    <header>
+        <div class="header">
+            <a href="index.html" target="_self" title="Link to Homepage"><img class="moco-logo" src="/img/moco-logo-white.png" alt="Movement Collective & Performance Logo"></a>
+            <nav class="header-nav">
+                <div class="dropdown nav-item">
+                    <a class="drop-header">
+                        ABOUT US
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="about.html" target="_self" title="Link to About page">Why MOCO?</a>
+                        <a href="team.html" target="_self" title="Link to About page">The Team</a>
+                    </div>
+                </div>
+                <a class="nav-item" href="gym.html" target="_self" title="Link to Gym page">GYM</a>
+                <div class="dropdown nav-item">
+                    <a class="drop-header">
+                        OSTEOPATHY
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="osteopathy.html" target="_self" title="Link to About page">The Osteo Joint</a>
+                        <a href="osteopaths.html" target="_self" title="Link to About page">Osteopaths</a>
+                    </div>
+                </div>
+                <a class="nav-item" href="pricing.html" target="_self" title="Link to Pricing page">PRICING</a>
+                <a class="nav-item" href="contact.html" target="_self" title="Link to Contact page">CONTACT</a>
+                <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a> -->
+                <a class="nav-item" href="https://www.instagram.com/mocoperformance/" target="_blank" title="Link to MOCO's Instagram"><img class="insta-logo" src="/img/instagram.png" alt="Instagram Logo"></a>
+                <a class="nav-btn nav-item" href="book.html" target="_self" title="Link to About page">BOOK NOW</a>
+            </nav>
+        </div>
+        <div class="header-mobile">
+            <img class="moco-logo" src="/img/moco-logo-white.png" alt="Movement Collective & Performance Logo" onclick="toggleMenu()">
+            <nav class="mobile-nav">
+                <a class="nav-item" href="index.html" target="_self" title="Link to Homepage">HOME</a>                
+                <a class="nav-item" href="about.html" target="_self" title="Link to About page">WHY MOCO?</a>
+                <a class="nav-item" href="team.html" target="_self" title="Link to About page">THE TEAM</a>
+                <a class="nav-item" href="gym.html" target="_self" title="Link to Gym page">GYM</a>             
+                <a class="nav-item" href="osteopathy.html" target="_self" title="Link to About page">THE OSTEO JOINT</a>
+                <a class="nav-item" href="osteopaths.html" target="_self" title="Link to About page">OSTEOPATHS</a>
+                <a class="nav-item" href="pricing.html" target="_self" title="Link to Pricing page">PRICING</a>
+                <a class="nav-item" href="contact.html" target="_self" title="Link to Contact page">CONTACT</a>
+                <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a> -->
+                <a class="nav-item" href="https://www.instagram.com/mocoperformance/" target="_blank" title="Link to MOCO's Instagram"><img class="insta-logo" src="/img/instagram.png" alt="Instagram Logo"></a>
+                <a class="nav-btn nav-item" href="book.html" target="_self" title="Link to About page">BOOK NOW</a>
+            </nav>
+        </div>
+    </header>
     
-    <h2>Osteopathy Clinic</h2>
-    <p>
-        Got a niggle or injury? Book an appointment with one of our on-site osteopaths.
-    </p>
+    <section class="sect-parallax-whyMoco">
+        <div class="whyMoco-dark-overlay whyMoco-wrap">
+            <div class="whyMoco-text-wrap">
+                <p class="whyMoco-text">WHY MOCO?</p>
+                <p class="heading-40">A GYM, WELLNESS STUDIO AND HEALTH CLINIC CREATED FOR OUR COMMUNITY</p>
+            </div>
+        </div>
+    </section>
     
-    <h2>1-ON-1 PERSONAL TRAINING</h2>
-    <p>
-        Need some extra attention? Our experienced trainers can be booked for one-on-one sessions. We offer 30min, 45min and 60minute private sessions throughout the week. <br>
-        All of our private training sessions are personalized and delivered inline with your goals. Whether you’re returning from a long break, need extra guidance to navigate through a injury or just want that extra motivation - we’re here to help contact us to find out more.
-    </p>
+    <section class="sect-experience">
+        <p class="heading-30">WITH OVER 20 YEARS IN THE FITNESS AND HEALTH INDUSTRIES, WHEN IT COMES TO EXERCISE AND MOVEMENT, WE’VE SEEN IT ALL.</p>
+        <p >
+            We’ve watched fitness trends come and go. We’ve seen monumental developments in health sciences. We’ve set and achieved our own fitness goals and helped countless clients smash theirs too. <br><br>
+            
+            We know that each person who walks through our doors is different. Some have clear goals and targets, others need a little bit of guidance. Some are recovering from major surgery, others have never been to hospital. Some like to stay in their comfort zone, others like to be pushed to the limit. Some have plenty of time to dedicate to exercise, others are squeezing in an hour here or there in between family, work and social commitments.<br><br>
+            
+            Tired of a ‘one-size-fits-all’ approach, we set out to create a truly holistic movement and wellness space to help each and every member of our community maximise their results and achieve their goals, regardless of their level of fitness, their motivation and their schedules.<br>
+        </p>
+    </section>
     
-    <h2>Wellness Space</h2>
-    <p>
-        Complement your group training sessions with a Pilates class in our Wellness Studio. Opening April 2022.
-    </p>
+    <section class="sect-parallax-vision">
+        <div class="dark-overlay"></div>
+    </section>
     
-    <h2>SHOWER, CHANGE ROOMS + TOILETS</h2>
-    <p>
-        If you’re coming in for a workout just before or immediately after work, there’s plenty of space to get changed before or after our classes.
-    </p>
+    <section class="sect-services">
+        <p class="heading-40">MOCO FACILITIES & SERVICES</p>
+        <div class="service-nav">
+            <div class="service-wrap">
+                <div class="service-item">
+                    <img class="service-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648623281390-ZQQKNB476Q2CL7WHWTT3/Kensington+Movement+Collective+Performance+MOCO+Gym+Ski+Ergs.jpg?format=500w" alt="photo of the studio">
+                    <p>Group Training Studio</p>
+                    <a class="btn" href="gym.html" target="_self" title="Link to Gym page">FIND OUT MORE</a>
+                </div>
+            </div>
+            <div class="service-wrap">
+                <div class="service-item">
+                    <img class="service-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648682476671-A8H9YG5NN1A4N6Q2UK61/Kensington+Movement+Collective+Performance+MOCO+The+Osteo+Joint+Treatment+Room+3.png?format=500w" alt="photo of a treatment table">
+                    <p>Osteopathy Clinic</p>
+                    <a class="btn" href="ostepathy.html" target="_self" title="Link to Osteopathy page">FIND OUT MORE</a>
+                </div>
+            </div>
+            <div class="service-wrap">
+                <div class="service-item">
+                    <img class="service-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648443308978-BR6OY1J6V7SOPJQASPHS/Kensington+Movement+Collective+Performance+MOCO+Gym+Strength+Session+Coaching.png?format=500w" alt="photo of coach watching a women's back squat technique">
+                    <p>1-on-1 Personal Training</p>
+                    <a class="btn" href="contact-us.html" target="_self" title="Link to Contact page">CONTACT US</a>
+                    
+                </div>
+            </div>
+            <div class="service-wrap">
+                <div class="service-item">
+                    <img class="service-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/826630c1-a42e-47b0-a095-ee6feaec7abe/Yoga+1.png?format=500w" alt="a person doing pilates">
+                    <p>Wellness Space - Coming Soon</p>
+                </div>
+            </div>
+            <div class="service-wrap">
+                <div class="service-item">
+                    <img class="service-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648682617407-YB5N1HUBDLHVLTSRJOWM/Kensington+Movement+Collective+Performance+MOCO+Body+Composition+Scanner.png?format=500w" alt="image of a body scanner">
+                    <p>Body Composition Scanner</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
-    <h2>PARKING</h2>
-    <p>
-        If you’re coming in for a workout just before or immediately after work, there’s plenty of space to get changed before or after our classes.
-    </p>
+    <div class="sect-parallax-passes">
+        <div class="dark-overlay"></div>
+    </div>
     
-    <h2>BODY COMPOSITION SCANNER</h2>
-    <p>
-        Our state-of-the-art Evolt 360 body composition scanner can provide you with insights and information about your body, including muscle mass, fat mass and water and mineral composition as well as recommended nutritional profile (calories and macros) to help you achieve your goals. <br>
-        Talk to one of our trainers about how to book a scan which includes a 10 minute consult to go through and interpret your results
-    </p>
+    <section class="passes-wrap">
+        <img class="passes-img" src="https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648446232522-25EUTS3PPRAHL1TQHULI/Kensington+Movement+Collective+Performance+MOCO+Gym+Strength+Session+Split+Squats.png?format=750w" alt="image of a body scanner">
+        <div class="passes-text">
+            <p class="heading-40">PASSES & MEMBERSHIPS</p>
+            <p>
+                The way you use MOCO is completely up to you. Whether you join us for one-off classes and treatments, purchase a pack of classes to see how you go, or sign up to one of our value-packed membership options, pick the option that’s suits you and your lifestyle best.
+            </p>
+        </div>
+    </section>
     
-    <h2>PRIVATE GROUP TRAINING</h2>
-    <p>
-        Part of a sports club and want to elevate your team’s fitness? Or do you have a group of workers or friends who’d you’d like to train with privately? <br>
-        We offer private group training sessions outside of timetabled class times. You’ll not only get to train in our state of the art facility, your session will be run and tailored by one of highly experienced coaches. So whether it’s to get match-fit or simply stay-fit, we’ll be able to cater to your MOVEMENT.
-    </p>
+    <section class="sect-parallax-plates">
+        <div class="plates-dark-overlay">
+            <div class="plates-text-wrap">
+                <p class="heading-40">READY TO TAKE YOUR MOVEMENT <br> TO THE NEXT LEVEL?</p>
+                <a class="plate-btn">BOOK NOW</a>
+            </div>
+        </div>
+    </section>
     
-    <h1>TEAM MOCO</h1>
-    <p>Our experienced team of trainers have had over 20 years experience in health, wellness and personal training.</p>
-    <button>MEET THE TEAM</button>
-    
-    <footer>
-        <h1>READY TO TAKE YOUR MOVEMENT TO THE NEXT LEVEL?</h1>
-        <button>BOOK NOW</button>
+    <footer class="footer">
+        <div class="insta-wrap">
+            <p>FOLLOW MOCO ON INSTAGRAM</p>
+            <p class="insta-center"><img src="/img/instagram.png" alt="instgram logo"> @MOCOPERFORMANCE</p>
+        </div>
         
-        <p>
-            FOLLOW MOCO ON INSTAGRAM
-        </p>
-        <p>
-            @MOCOPERFORMANCE
-        </p>
-        
-        <p>Community Guidelines</p>
-        <p>Terms & Conditions</p>
-        <p>FAQs</p>
-        <p>Privacy Policy</p>
-        <p>
-            MOCO Performance acknowledges the traditional owners and custodians of the land on which we work. We pay respects to elders past, present, and emerging and recognise their continuing connection to land, waterways, and community. Sovereignty has never been ceded. It always was and always will be, Aboriginal land.
-        </p>
-        <p>CONTACT US</p>
-        <p>11/7 Lloyd St, West Melbourne VIC 3003</p>
-        <p>mike@mocoperformance.com.au</p>
-        <p>0491 734 339</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <div class="foot-text-wrap">
+            <nav class="foot-nav">
+                <a href="community-guidelines.html" target="_self" title="Link to Community Guidelines">Community Guidelines</a>
+                <a href="terms-conditions.html" target="_self" title="Link to Terms and Conditions">Terms & Conditions</a>
+                <a href="faqs.html" target="_self" title="Link to frequently asked questions">FAQs</a>
+                <a href="privacy-policy.html" target="_self" title="Link to Privacy Policy">Privacy Policy</a>
+            </nav>
+            <p class="foot-ack">
+                MOCO Performance acknowledges the traditional owners and custodians of the land on which we work. We pay respects to elders past, present, and emerging and recognise their continuing connection to land, waterways, and community. Sovereignty has never been ceded. It always was and always will be, Aboriginal land.
+            </p>
+            <div class="foot-contact">
+                <a class="foot-contact-head link" href="contact.html" target="_self" title="Link to Contact page">CONTACT US</a>
+                <p>11/7 Lloyd St West Melbourne <br> VIC 3003</p>
+                <a class="link" href="mailto:mike@mocoperformance.com.au">mike@mocoperformance.com.au</a><br>
+                <a class="link" href="tel:0491734339">0491 734 339</a>
+            </div>
+        </div>        
     </footer>
-    
-    
-    
+    <script src="/js/main.js"></script>
 </body>
 </html>

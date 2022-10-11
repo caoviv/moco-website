@@ -9,6 +9,7 @@ body {
     height: 100%;
 }
 
+/* Header */
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -114,6 +115,91 @@ body {
     color: white;    
 }
 
+/* Footer */
+footer {
+    background-color: #282d30;
+    color: white;
+
+    padding: 1.5%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.insta-wrap {
+    color: white;
+    border-bottom: 2px solid #f7964c;
+    padding-bottom: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta-wrap p {
+    margin: 0.5em;
+}
+
+
+.insta-center {
+    display: flex;
+    align-items: center;
+}
+
+.foot-text-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5%;
+}
+
+.foot-nav {
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-nav a {
+    color: #f7964c;
+    margin: 0.5em 1.5em;
+}
+
+.foot-ack {
+    width: 33%;
+    text-align: center;
+}
+
+.foot-contact {
+    width: 33%;
+    margin: 0 1.5em;
+    text-align: right;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Heading styles */
+.heading-40 {
+    color: #f7964c;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heading-30 {
+    color: #f7964c;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+/* Home Page */
 /* Studio Parallax Styles */
 .sect-parallax-studio {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648683366972-E9VYTG82MJH2KVWFDN80/Kensington+Movement+Collective+Performance+MOCO+Gym+Floor.png?format=original);
@@ -141,12 +227,6 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-}
-
-.heading {
-    color: #f7964c;
-    font-size: 40px;
-    font-weight: 700;
 }
 
 .studio-btn {
@@ -180,7 +260,7 @@ body {
     display: none;
 }
 
-/* dark image overlay */
+/* darken image overlay */
 .dark-overlay {
     background-color: rgba(70,75,82,0.6);
     width: 100%;
@@ -250,8 +330,6 @@ body {
     font-size: 20px;
 }
 
-
-
 /* Plate Parallax Styles */
 .sect-parallax-plates {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/562c977b-75c3-485c-b606-916b11be7984/Kensington+Movement+Collective+Performance+MOCO+Gym+Weight+Plates.png?format=1500w);
@@ -286,72 +364,52 @@ body {
     font-size: 30px;
 }
 
-footer {
-    background-color: #282d30;
+/* About Page */
+/* Why Moco Section */
+.sect-parallax-whyMoco {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1a069486-9b35-497a-834f-8a6320445026/Kensington+Movement+Collective+Performance+MOCO+Gym+Core+Session+Coaching.png?format=original);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whyMoco-dark-overlay {
+    background-image: linear-gradient(to top, rgba(70,75,82,0.4), rgba(70,75,82,1));
+    width: 100%;
+    height: 100%;
+}
+
+.whyMoco-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.whyMoco-text-wrap {
+    margin-top: 86.906px;
+    padding: 5%;
     color: white;
-
-    padding: 1.5%;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.insta-wrap {
-    color: white;
-    border-bottom: 2px solid #f7964c;
-    padding-bottom: 2%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.insta-wrap p {
-    margin: 0.5em;
-}
-
-
-.insta-center {
-    display: flex;
-    align-items: center;
-}
-
-.foot-text-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0.5%;
-}
-
-.foot-nav {
-    width: 33%;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.foot-nav a {
-    color: #f7964c;
-    margin: 0.5em 1.5em;
-}
-
-.foot-ack {
-    width: 33%;
-    text-align: center;
-}
-
-.foot-contact {
-    width: 33%;
-    margin: 0 1.5em;
-    text-align: right;
     
-    display: flex;
-    flex-direction: column;
+    height: fit-content;
+    width: 65%;
 }
 
-.link {
-    color: white;
-    text-decoration: none;
+.whyMoco-text {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+/* Experience biography */
+.sect-experience {
+    display: flex;
+    align-items: center;
+
+    margin: 5%;
+    padding-right: 2%;
+    font-size: 20px;
+    text-align: justify;
 }
 
 /* Media Queries */
