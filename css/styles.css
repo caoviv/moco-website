@@ -191,6 +191,26 @@ footer {
     font-weight: 700;
 }
 
+.heading-40-white {
+    color: white;
+    font-size: 40px;
+}
+
+.heading-30 {
+    color: #f7964c;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading-30-white {
+    color: white;
+    font-size: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 /* Home Page */
 /* Studio Parallax Styles */
 .studio-parallax {
@@ -358,7 +378,7 @@ footer {
 
 /* About Page */
 /* Why Moco Section */
-.sect-parallax-whyMoco {
+.whyMoco-parallax {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1a069486-9b35-497a-834f-8a6320445026/Kensington+Movement+Collective+Performance+MOCO+Gym+Core+Session+Coaching.png?format=original);
     height: 100%;
     background-attachment: fixed;
@@ -394,7 +414,7 @@ footer {
 }
 
 /* Experience biography */
-.sect-experience {
+.experience-sect {
     display: flex;
     align-items: center;
 
@@ -404,7 +424,7 @@ footer {
     text-align: justify;
 }
 
-.sect-experience p {
+.experience-sect p {
     margin: 3%;
 }
 
@@ -415,6 +435,31 @@ footer {
     text-align: left;
 }
 
+/* Dumbbell Section */
+.dumbbell-parallax {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/f2d7686c-1f8e-4649-98d2-23195ad89477/Kensington+Movement+Collective+Performance+MOCO+Gym+Dumbbells.png?format=original);
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dumbbell-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.dumbbell-text-wrap {
+    text-align: center;
+
+    height: 100%;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* Media Queries */
 /* 1024px */
 @media screen and (max-width: 64em) {
