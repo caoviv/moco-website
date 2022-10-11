@@ -193,7 +193,7 @@ footer {
 
 /* Home Page */
 /* Studio Parallax Styles */
-.sect-parallax-studio {
+.studio-parallax {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/1648683366972-E9VYTG82MJH2KVWFDN80/Kensington+Movement+Collective+Performance+MOCO+Gym+Floor.png?format=original);
     height: 100%;
     background-attachment: fixed;
@@ -229,7 +229,7 @@ footer {
 }
 
 /* The MOCO Vision Styles */
-.sect-vision {
+.vision-sect {
     display: flex;
     align-items: center;
 
@@ -242,13 +242,13 @@ footer {
     text-align: center;
 }
 
-.img-vision {
+.vision-img {
     width: 60%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.sect-parallax-vision {
+.vision-parallax {
     display: none;
 }
 
@@ -260,7 +260,7 @@ footer {
 }
 
 /* Moco Facilities & Services */
-.sect-services {
+.services-sect {
     padding: 5%;
     text-align: center;
     background-color: rgb(240, 240, 240);
@@ -290,7 +290,7 @@ footer {
     border-radius: 10px;
 }
 
-.sect-parallax-passes {
+.passes-parallax {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/34c66473-307b-4d40-ba98-fd175adb0534/Kensington+Movement+Collective+Performance+MOCO+Gym+Strength+Session+Chest+Press.png?format=750w);
     height: 40%;
     background-attachment: fixed;
@@ -323,7 +323,7 @@ footer {
 }
 
 /* Plate Parallax Styles */
-.sect-parallax-plates {
+.plates-parallax {
     background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/562c977b-75c3-485c-b606-916b11be7984/Kensington+Movement+Collective+Performance+MOCO+Gym+Weight+Plates.png?format=1500w);
     height: 70%;
     background-attachment: fixed;
@@ -423,18 +423,18 @@ footer {
         margin: 1rem;
     }
 
-    .sect-vision {
+    .vision-sect {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 5%;
     }
 
-    .img-vision {
+    .vision-img {
         display: none;
     }
 
-    .sect-parallax-vision {
+    .vision-parallax {
         display: block;
         background-image: url(https://images.squarespace-cdn.com/content/v1/61b03875d5378849d90c7332/d59abb96-ba2d-4fd3-be94-5160a44be95f/Kensington+Movement+Collective+Performance+MOCO+Gym+Cardio+Session+Rowers.png?format=750w);
         height: 50%;
