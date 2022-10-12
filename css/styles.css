@@ -460,6 +460,20 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
+
+/* Moco Facilities & Services Details */
+.service-details-sect {
+    display: flex;    
+}
+
+.services-accordion {
+    width: 80%;
+}
+
+.group-text, .osteo-text, .pt-text, .wellness-text, .amenities-text, .parking-text, .scan-text, .private-group-text {
+    display: none;
+}
+
 /* Media Queries */
 /* 1024px */
 @media screen and (max-width: 64em) {
