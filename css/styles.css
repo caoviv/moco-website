@@ -463,7 +463,8 @@ footer {
 
 /* Moco Facilities & Services Details */
 .service-details-sect {
-    display: flex;    
+    display: flex;
+        
 }
 
 .services-accordion {
