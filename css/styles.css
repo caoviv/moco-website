@@ -464,11 +464,15 @@ footer {
 /* Moco Facilities & Services Details */
 .service-details-sect {
     display: flex;
-        
+
 }
 
 .services-accordion {
     width: 80%;
+}
+
+.services-heading {
+    color: #f7964c;
 }
 
 .group-text, .osteo-text, .pt-text, .wellness-text, .amenities-text, .parking-text, .scan-text, .private-group-text {
